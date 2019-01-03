@@ -1,7 +1,7 @@
 # Cloud Firestore To BigQuery
 ## Prerequisite
 * [Enable billing for your Google Cloud Platform](https://cloud.google.com/billing/docs/how-to/modify-project) project. Only GCP projects with billing enabled can use the export and import functionality.
-* [Create a Cloud Storage bucket for your project](https://cloud.google.com/storage/docs/creating-buckets) in a location near your Cloud Firestore database location `(It must be in the same regional or multi-regional location )`. You cannot use a Requester Pays bucket for export and import operations.
+* [Create a Cloud Storage bucket for your project](https://github.com/rench9/Firestore-To-BigQuery#create-a-new-storage-bucket) in a location near your Cloud Firestore database location `(It must be in the same regional or multi-regional location )`. You cannot use a Requester Pays bucket for export and import operations.
 * If you are the project owner, your account has the required permissions, else make sure you following rights granted:
   * Cloud Firestore roles: Owner, Cloud Datastore Owner, or Cloud Datastore Import Export Admin
   * Cloud Storage roles: Owner or Storage Admin
